@@ -1,10 +1,18 @@
 # kafka-producer
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure utility that demonstates how a kafka producer produces a message to a certain topic.
+This repo is a producer and pushed the message to [kafka-consumer](https://github.com/DwivediShashikant/kafka-consumer)
 
 ## Usage
 
-FIXME
+stream the message to [kafka-consumer](https://github.com/DwivediShashikant/kafka-consumer) for a certain topic by using the command:
+```clojure
+lein producer $Home\IdeaProjects\kafka-producer\config\kafka\java.config <top-name>
+```
+example: 
+```clojure
+lein producer $Home\IdeaProjects\kafka-producer\config\kafka\java.config test10
+```
 
 ## License
 
